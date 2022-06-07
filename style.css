@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html {
+    height: 100%;
+}
+body {
+    background-color:rgba(0, 0, 0, 0.9);
+    /* background-image: url(images/Background_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    */
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+body::before {
+    top: 0;
+    content:"";
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    background-image: url('Images/Background_1.jpg');opacity:0.8;
+    z-index: -1;
+    background-size:cover;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    /* background-color: aqua; */
+}
+header {
+    height: 118px;
+    width: 1024;
+    text-align: center;
+}
+header img {
+width: 20%;
+height: auto;
+}
+
+
+/* Start of navigation*/
+nav {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.6);
+}
+nav a {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight:100;
+    color: rgb(255, 255, 255);
+}
+nav a:hover {
+    background-color: rgb(162, 106, 21);
+}
+nav a:active {
+    background-color: rgb(239, 104, 8);
+}
+/* End of navigation*/
+
+
+main {
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 180px;
+    padding-right: 180px;
+    /* background-color: lightblue; */
+}
+main h1 {
+    font-size: 84px;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main p {
+    font-size: 18px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.text {
+    color: yellow;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+main a {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+    /* text-decoration: none; */
+    text-decoration: underline;
+    font-size: 30px;
+}
+.maps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background-color: aqua; */
+}
+section iframe {
+    border: 2px solid rgb(34, 0, 255);
+    border-radius: 20px;
+    margin: 10px;
+}
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color:rgba(242, 136, 7, 0.4);
+    width: 1024;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
